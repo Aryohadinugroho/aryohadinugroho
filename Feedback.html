@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDTH - Home</title>
+    <link rel="stylesheet" href="Home.css" />
+    <script src="https://kit.fontawesome.com/4592f70558.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><img src="Foto/I.png" alt="Logo"></a>
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Ticket.php">Ticket</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Feedback</title>
+    <link rel="stylesheet" href="Home.css"> <!-- Link ke file CSS -->
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>Berikan Feedback Anda</h2>
+        <form id="feedbackForm">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Kirim Feedback</button>
+        </form>
+        <div id="responseMessage"></div> <!-- Tempat untuk menampilkan pesan respon -->
+    </div>
+
+    <script src="Input.js"></script> <!-- Link ke file JavaScript -->
+</body>
+<style>
+    .footer {
+        background-color: #032030; /* Background color for the footer */
+        padding: 20px 0; /* Padding for spacing */
+        text-align: center; /* Centering the text */
+    }
+
+    .footer-col h4 {
+        font-size: 24px; /* Increase font size for header */
+        margin-bottom: 15px; /* Space below the header */
+    }
+
+    .social-links a {
+        font-size: 30px; /* Increase icon size */
+        margin: 0 10px; /* Space between icons */
+        color: #032030; /* Icon color */
+        transition: transform 0.3s; /* Smooth scaling effect on hover */
+    }
+
+    .social-links a:hover {
+        transform: scale(1.2); /* Scale up on hover */
+    }
+</style>
+
+<footer class="footer">
+    <div class="container3">
+        <div class="row">
+            <div class="footer-col">
+                <p>&copy;DEVASANA NIRMATA ISVARA TICKET 2024</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</main>
+</html>
